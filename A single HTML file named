@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A semantic HTML5 example demonstrating accessibility, SEO, and proper document structure without CSS or JavaScript.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML5 Page Example</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Semantic HTML5 Best Practices</h1>
+        <p>A structured, accessible, and search-engine-friendly example page.</p>
+    </header>
+
+    <nav aria-label="Primary navigation">
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#structure">Page Structure</a></li>
+            <li><a href="#accessibility">Accessibility</a></li>
+            <li><a href="#seo">SEO Considerations</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>
+                This page demonstrates how to build a well-structured HTML5 document
+                using semantic elements that benefit users, assistive technologies,
+                and search engines.
+            </p>
+        </section>
+
+        <section id="structure">
+            <h2>Logical Page Structure</h2>
+
+            <article>
+                <h3>Using Semantic Elements</h3>
+                <p>
+                    Semantic elements such as <code>header</code>, <code>nav</code>,
+                    <code>main</code>, <code>section</code>, and <code>footer</code>
+                    clearly describe the purpose of each part of the page.
+                </p>
+            </article>
+
+            <article>
+                <h3>Content Hierarchy</h3>
+                <p>
+                    Headings are used in a logical order, starting with one
+                    <code>h1</code>, followed by <code>h2</code> and <code>h3</code>
+                    elements. This improves readability and allows search engines
+                    to understand content relationships.
+                </p>
+            </article>
+        </section>
+
+        <section id="accessibility">
+            <h2>Accessibility Features</h2>
+            <p>
+                HTML5 landmarks help screen readers identify major regions of the page.
+                Descriptive link text and navigation labels improve keyboard and
+                assistive technology navigation.
+            </p>
+
+            <aside>
+                <h3>Why Accessibility Matters</h3>
+                <p>
+                    Accessible markup ensures that all users, including those using
+                    screen readers or keyboard navigation, can access and understand
+                    your content.
+                </p>
+            </aside>
+        </section>
+
+        <section id="seo">
+            <h2>SEO-Friendly Markup</h2>
+            <p>
+                Search engines rely on semantic structure and meaningful text.
+                Proper use of headings, descriptive paragraphs, and metadata
+                improves discoverability and indexing.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2025 Semantic Web Example. All rights reserved.
+        </p>
+        <address>
+            Written by a web development mentor with over a decade of experience.
+        </address>
+    </footer>
+
+</body>
+</html>
